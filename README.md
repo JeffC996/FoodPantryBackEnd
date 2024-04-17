@@ -38,6 +38,12 @@ This will start the server on http://localhost:8000. The API documentation can b
         200: Successfully updated the inventory.
         400: Invalid input, quantity must be an integer.
         500: Server error or transaction failed.
+2. GET /getAllData
+    - Description: Gets all data in the database in JSON form.
+
+## Nest step in development:
+1. convert JSON(what getAllData returns) to excel  
+2. Test -> GitHub Action
 
 ## Docker
 uncompleted yet
